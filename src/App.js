@@ -1,12 +1,12 @@
 import './App.css';
 import './assets/css/style.css'
 import './assets/fonts/stylesheet.css'
-import Logo from './componentes/Logo';
+import Logo from './components/Logo';
 
 function App() {
   return (
     <div>
-   <Logo/>
+      <Logo/>
     </div>
   );
 }
