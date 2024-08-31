@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "../assets/css/Saludo.css"
 
+
 function HourNow() {
     const ahora = new Date()
     const hora = ahora.getHours()
@@ -8,7 +9,7 @@ function HourNow() {
     return hora
 }
 
-function Saludo(darkmode) {
+function Saludo({darkmode}) {
     const [saludo, setSaludo] = useState('')
 
     useEffect(() => {
@@ -25,7 +26,7 @@ function Saludo(darkmode) {
 
     if (darkmode) {
         return (
-            <div className='saludo darkMode'>{saludo}</div>
+            <div className='saludo darkmode'>{saludo}</div>
         )
     } else {
         return (
