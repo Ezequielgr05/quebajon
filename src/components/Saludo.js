@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import "../assets/css/Saludo.css"
 
 function HourNow() {
     const ahora = new Date()
@@ -7,7 +8,7 @@ function HourNow() {
     return hora
 }
 
-function Saludo() {
+function Saludo(darkmode) {
     const [saludo, setSaludo] = useState('')
 
     useEffect(() => {
@@ -22,9 +23,16 @@ function Saludo() {
         }
     }, [])
 
-  return (
-    <div className='saludo'>{saludo}</div>
-  )
+    if (darkmode) {
+        return (
+            <div className='saludo darkMode'>{saludo}</div>
+        )
+    } else {
+        return (
+            <div className='saludo'>{saludo}</div>
+        )
+    }
+  
 }
 
 export default Saludo
