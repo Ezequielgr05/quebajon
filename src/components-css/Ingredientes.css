@@ -1,0 +1,143 @@
+.icon-lg-dark, 
+.icon-sm-dark,
+.icon-lg-light, 
+.icon-sm-light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-lg-dark div, 
+.icon-sm-dark div {
+    background-color: #56afe4;
+    border-radius: 50%;
+}
+
+.icon-lg-light div, 
+.icon-sm-light div {
+    background-color: #f8f8f8;
+    border-radius: 50%;
+}
+
+.icon-lg-dark div, 
+.icon-lg-dark div img,
+.icon-lg-light div, 
+.icon-lg-light div img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.icon-sm-dark div, 
+.icon-sm-dark div img,
+.icon-sm-light div, 
+.icon-sm-light div img  {
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon-lg-dark p, 
+.icon-sm-dark p,
+.icon-lg-light p, 
+.icon-sm-light p {
+    font-family: 'Sunny Sunday';
+    color: #0c0818;
+}
+
+.icon-lg-dark p,
+.icon-lg-light p {
+    font-size: 13pt;
+}
+
+.icon-sm-dark p,
+.icon-sm-light p {
+    font-size: 10pt;
+}
+
+/* Other windows */
+@media (min-width: 375px) {
+    .icon-lg-dark div, 
+    .icon-lg-dark div img,
+    .icon-lg-light div, 
+    .icon-lg-light div img  {
+    height: 4.5rem;
+    width: 4.5rem;
+    }
+    .icon-sm-dark div, 
+    .icon-sm-dark div img,
+    .icon-sm-light div, 
+    .icon-sm-light div img  {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .icon-sm-dark p,
+    .icon-sm-light p {
+    font-size: 11pt;
+}
+}
+
+@media (min-width: 768px) {
+    .icon-lg-dark div, 
+    .icon-lg-dark div img,
+    .icon-lg-light div, 
+    .icon-lg-light div img  {
+    height: 5rem;
+    width: 5rem;
+    }
+    .icon-sm-dark div, 
+    .icon-sm-dark div img,
+    .icon-sm-light div, 
+    .icon-sm-light div img  {
+        height: 4rem;
+        width: 4rem;
+    }
+    .icon-lg-dark p,
+    .icon-lg-light p {
+    font-size: 14pt;
+    }
+    .icon-sm-dark p,
+    .icon-sm-light p {
+    font-size: 12pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .icon-lg-dark div, 
+    .icon-lg-dark div img,
+    .icon-lg-light div, 
+    .icon-lg-light div img  {
+    height: 5.5rem;
+    width: 5.5rem;
+    }
+    .icon-sm-dark div, 
+    .icon-sm-dark div img,
+    .icon-sm-light div, 
+    .icon-sm-light div img  {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    .icon-lg-dark p,
+    .icon-lg-light p {
+    font-size: 15pt;
+    }
+    .icon-sm-dark p,
+    .icon-sm-light p {
+    font-size: 13pt;
+    }
+}
+
+/* Darkmode */
+
+.darkmode-light div {
+    background-color: #255c7d;
+}
+
+.darkmode-dark div {
+    background-color: #122734;
+}
+
+.darkmode-light p, 
+.darkmode-dark p{
+    color: #f8f8f8;
+}
+
