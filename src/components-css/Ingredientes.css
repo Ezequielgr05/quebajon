@@ -21,19 +21,33 @@
 }
 
 .icon-lg-dark div, 
-.icon-lg-dark div img,
-.icon-lg-light div, 
-.icon-lg-light div img {
+.icon-lg-light div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 4rem;
     width: 4rem;
 }
 
-.icon-sm-dark div, 
-.icon-sm-dark div img,
-.icon-sm-light div, 
-.icon-sm-light div img  {
+.icon-lg-dark div img, 
+.icon-lg-light div img {
     height: 3rem;
     width: 3rem;
+}
+
+.icon-sm-dark div, 
+.icon-sm-light div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon-sm-dark div img,
+.icon-sm-light div img {
+    height: 2rem;
+    width: 2rem;
 }
 
 .icon-lg-dark p, 
@@ -57,87 +71,113 @@
 /* Other windows */
 @media (min-width: 375px) {
     .icon-lg-dark div, 
-    .icon-lg-dark div img,
-    .icon-lg-light div, 
-    .icon-lg-light div img  {
-    height: 4.5rem;
-    width: 4.5rem;
+    .icon-lg-light div {
+        height: 4.5rem;
+        width: 4.5rem;
     }
-    .icon-sm-dark div, 
-    .icon-sm-dark div img,
-    .icon-sm-light div, 
-    .icon-sm-light div img  {
+    .icon-lg-dark div img, 
+    .icon-lg-light div img {
         height: 3.5rem;
         width: 3.5rem;
     }
+
+    .icon-sm-dark div, 
+    .icon-sm-light div {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .icon-sm-dark div img,
+    .icon-sm-light div img {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
     .icon-sm-dark p,
     .icon-sm-light p {
-    font-size: 11pt;
-}
+        font-size: 11pt;
+    }
 }
 
 @media (min-width: 768px) {
     .icon-lg-dark div, 
-    .icon-lg-dark div img,
-    .icon-lg-light div, 
-    .icon-lg-light div img  {
-    height: 5rem;
-    width: 5rem;
+    .icon-lg-light div {
+        height: 5rem;
+        width: 5rem;
     }
-    .icon-sm-dark div, 
-    .icon-sm-dark div img,
-    .icon-sm-light div, 
-    .icon-sm-light div img  {
+    .icon-lg-dark div img, 
+    .icon-lg-light div img {
         height: 4rem;
         width: 4rem;
     }
+
+    .icon-sm-dark div, 
+    .icon-sm-light div {
+        height: 4rem;
+        width: 4rem;
+    }
+    .icon-sm-dark div img,
+    .icon-sm-light div img {
+        height: 3rem;
+        width: 3rem;
+    }
+
     .icon-lg-dark p,
     .icon-lg-light p {
-    font-size: 14pt;
+        font-size: 14pt;
     }
+
     .icon-sm-dark p,
     .icon-sm-light p {
-    font-size: 12pt;
+        font-size: 12pt;
     }
 }
 
 @media (min-width: 1024px) {
     .icon-lg-dark div, 
-    .icon-lg-dark div img,
-    .icon-lg-light div, 
-    .icon-lg-light div img  {
-    height: 5.5rem;
-    width: 5.5rem;
+    .icon-lg-light div {
+        height: 5.5rem;
+        width: 5.5rem;
     }
-    .icon-sm-dark div, 
-    .icon-sm-dark div img,
-    .icon-sm-light div, 
-    .icon-sm-light div img  {
+    .icon-lg-dark div img, 
+    .icon-lg-light div img {
         height: 4.5rem;
         width: 4.5rem;
     }
+
+    .icon-sm-dark div, 
+    .icon-sm-light div {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    .icon-sm-dark div img,
+    .icon-sm-light div img {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
     .icon-lg-dark p,
     .icon-lg-light p {
-    font-size: 15pt;
+        font-size: 15pt;
     }
+
     .icon-sm-dark p,
     .icon-sm-light p {
-    font-size: 13pt;
+        font-size: 13pt;
     }
 }
 
 /* Darkmode */
 
 .darkmode-light div {
-    background-color: #255c7d;
+    background-color: #255c7d !important;
 }
 
 .darkmode-dark div {
-    background-color: #122734;
+    background-color: #122734 !important;
 }
 
 .darkmode-light p, 
 .darkmode-dark p{
-    color: #f8f8f8;
+    color: #f8f8f8 !important;
 }
 
