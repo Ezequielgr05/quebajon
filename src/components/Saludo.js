@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import "../assets/css/Saludo.css"
+import "../components-css/Saludo.css"
 
 
 function HourNow() {

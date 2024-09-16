@@ -1,0 +1,35 @@
+.saludo {
+    display: block;
+    font-size: 22pt;
+    font-family: 'Sunny Sunday';
+}
+
+/* other Windows */
+@media (min-width: 375px) {
+    .saludo {
+        font-size: 25pt;
+    }
+}
+
+@media (min-width: 425px) {
+    .saludo {
+        font-size: 29pt;
+    }
+}
+
+@media (min-width: 768px) {
+    .saludo {
+        font-size: 36pt;
+    }
+}
+
+@media (min-width: 1024px) {
+    .saludo {
+        font-size: 40pt;
+    }
+}
+
+/* Darkmode */
+.darkmode {
+    color: #f8f8f8;
+}
